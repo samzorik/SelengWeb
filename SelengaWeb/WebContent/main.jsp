@@ -14,20 +14,65 @@
 </head>
 <body>
  <!--  <div class="header">Выбрать данные по</div> -->
-	<p>
-		<b>Выбрать данные по:</b><Br>
-	
-	<div class="bord">
-		<div>
-			<input type="radio" name="data_type" value="by_year"> По году
-		</div>
-		<div>
-			<input type="radio" name="data_type" value="by_sp"> По сельскому поселению
-		</div>
-		<div>
-			<input type="radio" name="data_type" value="by_district"> По  району в целом
-		</div>
-	</div>
+
+	<form method="post">
+		<fieldset>
+			<legend>
+				<b>Выбрать данные по:</b>
+			</legend>
+			<div class="bord">
+				<div class="col1">
+					<input type="radio" name="data_type" value="by_year"> По
+					году
+				</div>
+				<div class="col2">
+					<input type="radio" name="data_type" value="by_sp"> По
+					сельскому поселению
+				</div>
+				<div class="col3">
+					<input type="radio" name="data_type" value="by_district">
+					По району в целом
+				</div>
+			</div>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<b>Год</b>
+			</legend>
+			Name: <input type="text" size="20"><br> Email: <input
+				type="text" size="20">
+		</fieldset>
+		<p></p>
+		<fieldset>
+			<legend>
+				<b>Сельское поселение</b>
+			</legend>
+			Favorite Color: Red: <input type="radio"> Blue: <input
+				type="radio"> Green: <input type="radio">
+			<p>
+				Favorite Toothpaste: Crest: <input type="checkbox">
+				Close-Up: <input type="checkbox"> Gleem: <input
+					type="checkbox">
+			</p>
+		</fieldset>
+		<p></p>
+		<fieldset>
+			<legend>
+				<b>Группы показателей</b>
+			</legend>
+			<br> <input type="button"
+				onclick="alert('Stop clicking the buttons')" value="Click to Submit">
+			<br> <br>
+		</fieldset>
+		<fieldset>
+			<legend>
+				<b>Показатели</b>
+			</legend>
+			<br> <input type="button"
+				onclick="alert('Stop clicking the buttons')" value="Click to Submit">
+			<br> <br>
+		</fieldset>
+	</form>
 	<select id="someselect"></select>
 	<div></div>
 	<!--  <div class="layout">

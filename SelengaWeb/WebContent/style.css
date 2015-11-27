@@ -1,8 +1,9 @@
 .header { background: #D5BAE4; }
 
-.bord {box-shadow:  0 0 4px #3B5D7B; border-radius: 3px;}
-.bord div{ position: static; height: 20px; display:inline-block; margin:2px; width:32%}   
-.col1 { width: 32%;float:left}
-.col2 {  width: 32%;float:left }
-.col3 { width: 31%;float:left}
+/* .bord {box-shadow:  0 0 4px #3B5D7B; border-radius: 3px;} */
+.cinepak {box-shadow:  0 0 4px #3B5D7B; border-radius: 3px;}
+.bord div{ position: static; height: 20px; display:inline-block; margin:2px}   
+.col1 { width: 25%}
+.col2 {  width: 36%}
+.col3 { width: 35%}
 .cc {margin:0.5%}
