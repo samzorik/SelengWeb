@@ -1,0 +1,45 @@
+=== Информация выполнения ===
+
+Схема:       13:52:29 - SimpleKMeans -N 6 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Таблица:     QueryResult-weka.filters.unsupervised.attribute.Remove-R3-7
+Объекты:    19259
+Атрибуты:   2
+              FILM_NAME
+              COUNTS
+Test mode:    evaluate on training data
+
+
+=== Модель кластеризации (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 34
+Within cluster sum of squared errors: 19063.41641830006
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                                                                              Cluster#
+Attribute                                                                 Full Data                                  0                                  1                                  2                                  3                                  4                                  5
+                                                                            (19259)                             (9519)                             (2377)                              (378)                             (5035)                              (657)                             (1293)
+=====================================================================================================================================================================================================================================================================================================
+FILM_NAME                                                                 Аватар 3D                      Гадкий я в 3D                 Дьявол носит PRADA                          Аватар 3D                      Мне не больно                            Рататуй Хоббит. Нежданное путешествие (6+)
+COUNTS                                                                      57.3084                            12.3222                            90.2158                           466.5661                            43.3714                           268.6697                           155.2289
+
+
+
+
+Time taken to build model (full training data) : 1.54 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       9519 ( 49%)
+1       2377 ( 12%)
+2        378 (  2%)
+3       5035 ( 26%)
+4        657 (  3%)
+5       1293 (  7%)
+

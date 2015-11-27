@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;WebWindow&apos; to &apos;MedframeOpenIssueExtract&apos;&#x0D;&#x0A;- Original project: &apos;JX&apos;&#x0D;&#x0A;- Original element: &apos;WebWindow&apos;&#x0D;&#x0A;- Renamed element: &apos;MedframeOpenIssueExtract&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;WebWindow&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{WebWindow.java[WebWindow" matchStrategy="1" name="MedframeOpenIssueExtract" qualified="false" references="true" similarDeclarations="false" stamp="1407463231470" textual="false" version="1.0"/>
+</session>

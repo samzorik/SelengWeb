@@ -1,0 +1,43 @@
+=== Информация выполнения ===
+
+Схема:       13:51:50 - SimpleKMeans -N 4 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Таблица:     QueryResult-weka.filters.unsupervised.attribute.Remove-R3-7
+Объекты:    19259
+Атрибуты:   2
+              FILM_NAME
+              COUNTS
+Test mode:    evaluate on training data
+
+
+=== Модель кластеризации (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 28
+Within cluster sum of squared errors: 19117.71825601229
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                                              Cluster#
+Attribute                                                 Full Data                  0                  1                  2                  3
+                                                            (19259)            (13482)             (1282)              (492)             (4003)
+===============================================================================================================================================
+FILM_NAME                                                 Аватар 3D      Гадкий я в 3D Дьявол носит PRADA          Аватар 3D      Мне не больно
+COUNTS                                                      57.3084            20.1345            207.564           437.8801            87.6128
+
+
+
+
+Time taken to build model (full training data) : 1.03 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      13482 ( 70%)
+1       1282 (  7%)
+2        492 (  3%)
+3       4003 ( 21%)
+

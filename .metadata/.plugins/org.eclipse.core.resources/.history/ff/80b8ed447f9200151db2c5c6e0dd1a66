@@ -1,0 +1,5 @@
+package TestMavenProject.Runner;
+
+public class HelloWorld {
+
+}

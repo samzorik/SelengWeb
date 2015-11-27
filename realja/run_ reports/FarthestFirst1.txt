@@ -1,0 +1,47 @@
+=== Информация выполнения ===
+
+Схема:       13:53:29 - FarthestFirst -N 6 -S 1
+Таблица:     QueryResult-weka.filters.unsupervised.attribute.Remove-R3-7
+Объекты:    19259
+Атрибуты:   2
+              FILM_NAME
+              COUNTS
+Test mode:    evaluate on training data
+
+
+=== Модель кластеризации (full training set) ===
+
+
+ FarthestFirst
+==============
+
+Cluster centroids:
+
+Cluster 0
+	 Хитрюга Джек 81.0
+Cluster 1
+	 Мадагаскар 2 1276.0
+Cluster 2
+	 Ледниковый период 3 682.0
+Cluster 3
+	 Ледниковый период 2 381.0
+Cluster 4
+	 Шрек Третий 995.0
+Cluster 5
+	 Гарри Поттер 6 840.0
+
+
+
+Time taken to build model (full training data) : 0.1 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      18323 ( 95%)
+1         27 (  0%)
+2        110 (  1%)
+3        720 (  4%)
+4         30 (  0%)
+5         49 (  0%)
+

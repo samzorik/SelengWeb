@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;PrefuseTree.java&apos; to &apos;weka.gui.visualize.plugins.PrefuseTree.java&apos;&#x0D;&#x0A;- Original project: &apos;realja&apos;&#x0D;&#x0A;- Destination element: &apos;weka.gui.visualize.plugins.PrefuseTree.java&apos;&#x0D;&#x0A;- Original element: &apos;weka.gui.visualize.plugins.PrefuseTree.java&apos;" description="Copy compilation unit" destination="/java&lt;weka.gui.visualize.plugins{PrefuseTree.java" element1="/java&lt;weka.gui.visualize.plugins{PrefuseTree.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1394601646330" units="1" version="1.0"/>
+</session>

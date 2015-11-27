@@ -1,0 +1,55 @@
+=== Информация выполнения ===
+
+Схема:       14:25:04 - SimpleKMeans -N 6 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Таблица:     QueryResult
+Объекты:    19259
+Атрибуты:   7
+              FILM_NAME
+              COUNTS
+              SUMM
+              DAY_NAME
+              YEAR_
+              DAY_COUNTER
+Ignored:
+              DAY_OF_WEEK_TEXT
+Test mode:    evaluate on training data
+
+
+=== Модель кластеризации (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 23
+Within cluster sum of squared errors: 38318.65361351284
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                                                        Cluster#
+Attribute                                                      Full Data                       0                       1                       2                       3                       4                       5
+                                                                 (19259)                  (3915)                  (2087)                  (3880)                  (2478)                   (569)                  (6330)
+========================================================================================================================================================================================================================
+FILM_NAME                                                      Аватар 3D         Ирония судьбы 2  Пираты К. моря. Сундук               Аватар 3D          Любовь-морковь                    Жара Гарри Поттер 7 (ч.2) 3D
+COUNTS                                                           57.3084                 48.9034                 63.8831                 45.5655                 60.8128                370.0334                 38.0543
+SUMM                                                          16317.0735              11934.5428              11295.8222               14649.358              12373.5259              108481.225              14964.5306
+DAY_NAME                                                        1 апреля               9 декабря               9 октября              29 декабря              24 октября                  5 июля                6 января
+YEAR_                                                          2009.2873               2008.3724               2006.0393               2009.7539               2007.0371               2008.6749               2011.5741
+DAY_COUNTER                                                    1380.5352               1019.9405                228.2645               1583.7214                569.5581               1138.2004               2198.1725
+
+
+
+
+Time taken to build model (full training data) : 2.75 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0       3915 ( 20%)
+1       2087 ( 11%)
+2       3880 ( 20%)
+3       2478 ( 13%)
+4        569 (  3%)
+5       6330 ( 33%)
+

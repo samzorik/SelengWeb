@@ -1,0 +1,8 @@
+.header { background: #D5BAE4; }
+
+.bord {border: solid 1px}
+.bord div{ position: static; height: 20px}   
+.col1 { width: 32%;float:left}
+.col2 {  width: 32%;float:left }
+.col3 { width: 31%;float:left}
+.cc {margin:0.5%}

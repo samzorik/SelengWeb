@@ -29,6 +29,7 @@
 		</div>
 	</div>
 	<select id="someselect"></select>
+	<div></div>
 	<!--  <div class="layout">
    <div class="col1 cc">Колонка 1</div>
    <div class="col2 cc">Колонка 2</div>

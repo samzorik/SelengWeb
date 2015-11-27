@@ -1,0 +1,41 @@
+=== Информация выполнения ===
+
+Схема:       14:31:42 - FarthestFirst -N 2 -S 1
+Таблица:     QueryResult
+Объекты:    19259
+Атрибуты:   7
+              FILM_NAME
+              COUNTS
+              SUMM
+              DAY_NAME
+              YEAR_
+              DAY_COUNTER
+Ignored:
+              DAY_OF_WEEK_TEXT
+Test mode:    evaluate on training data
+
+
+=== Модель кластеризации (full training set) ===
+
+
+ FarthestFirst
+==============
+
+Cluster centroids:
+
+Cluster 0
+	 Хитрюга Джек 81.0 11930.0 29 июля 2008.0 940.0
+Cluster 1
+	 Мадагаскар 2 1225.0 413169.0 2 ноября 2008.0 1036.0
+
+
+
+Time taken to build model (full training data) : 0.07 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      19203 (100%)
+1         56 (  0%)
+

@@ -1,0 +1,13 @@
+import net.sourceforge.javaocr.ocrPlugins.OCRDemo.*;
+public class work {
+   
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		OCRScannerDemo t = new OCRScannerDemo();
+//		t.
+	}
+
+}

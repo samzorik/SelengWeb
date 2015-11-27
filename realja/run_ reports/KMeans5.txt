@@ -1,0 +1,51 @@
+=== Информация выполнения ===
+
+Схема:       14:01:32 - SimpleKMeans -N 2 -A "weka.core.EuclideanDistance -R first-last" -I 500 -num-slots 1 -S 10
+Таблица:     QueryResult
+Объекты:    2991
+Атрибуты:   7
+              FILM_NAME
+              COUNTS
+              SUMM
+              DAY_NAME
+              YEAR_
+              DAY_OF_WEEK_TEXT
+              DAY_COUNTER
+Test mode:    evaluate on training data
+
+
+=== Модель кластеризации (full training set) ===
+
+
+kMeans
+======
+
+Number of iterations: 4
+Within cluster sum of squared errors: 8195.206133261245
+Missing values globally replaced with mean/mode
+
+Cluster centroids:
+                                                                        Cluster#
+Attribute                                              Full Data               0               1
+                                                          (2991)          (1522)          (1469)
+================================================================================================
+FILM_NAME                                        Мадагаскар 3 3D Иван Царевич 3D    Решала (18+)
+COUNTS                                                   36.8485         41.1353         32.4071
+SUMM                                                  14652.7857      16396.7278       12845.924
+DAY_NAME                                                2 апреля        2 апреля        30 марта
+YEAR_                                                       2012            2012            2012
+DAY_OF_WEEK_TEXT                                         Суббота         Суббота         Пятница
+DAY_COUNTER                                            2364.5624       2299.5598       2431.9101
+
+
+
+
+Time taken to build model (full training data) : 0.09 seconds
+
+=== Model and evaluation on training set ===
+
+Clustered Instances
+
+0      1522 ( 51%)
+1      1469 ( 49%)
+

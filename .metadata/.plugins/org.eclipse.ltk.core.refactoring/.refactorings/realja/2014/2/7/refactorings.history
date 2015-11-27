@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HierarchicalClusterer.java&apos; to &apos;weka.clusterers.HierarchicalClusterer.java&apos;&#x0D;&#x0A;- Original project: &apos;realja&apos;&#x0D;&#x0A;- Destination element: &apos;weka.clusterers.HierarchicalClusterer.java&apos;&#x0D;&#x0A;- Original element: &apos;weka.clusterers.HierarchicalClusterer.java&apos;" description="Copy compilation unit" destination="/java&lt;weka.clusterers{HierarchicalClusterer.java" element1="/java&lt;weka.clusterers{HierarchicalClusterer.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1392163071170" units="1" version="1.0"/>
+</session>

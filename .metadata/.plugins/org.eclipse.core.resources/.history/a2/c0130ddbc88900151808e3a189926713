@@ -1,0 +1,54 @@
+package Entities;
+import javax.persistence.*;
+
+import TestMavenProject.Runner.Car;
+
+import java.util.Date;
+ 
+@Entity
+@Table(name = "pokazateli")
+@NamedQuery(name = "Pokazateli.getAll", query = "SELECT c from Pokazateli c")
+public class Pokazateli {
+ 
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
+ 
+    @Column(name = "name")
+    private String name;
+    
+    @ManyToOne
+    @JoinColumn
+    private Group_pokaz gp;
+    
+    @ManyToOne
+    @JoinColumn
+    private Measurement_units mu;
+ 
+    public Pokazateli(String name) {
+        this.name = name;
+    }
+ 
+    public Pokazateli() {
+    }
+
+	public long getId() {
+		return id;
+	}
+
+	public void setId(long id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	@Override
+    public String toString() {
+		return id+" "+name;
+	}
+}

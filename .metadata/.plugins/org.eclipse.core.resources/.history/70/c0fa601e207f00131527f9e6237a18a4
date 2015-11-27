@@ -1,0 +1,17 @@
+import net.sourceforge.javaocr.ocrPlugins.OCRDemo.*;
+public class work {
+   
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		OCRScannerDemo t = new OCRScannerDemo();
+		String [] bolt={"C:\\images\\ascii.png"};
+		System.setProperty("TRAINING_IMAGE_DIR", "C:\\images");
+		System.getProperty("sdf");
+		t.main(bolt);
+//		t.
+	}
+
+}

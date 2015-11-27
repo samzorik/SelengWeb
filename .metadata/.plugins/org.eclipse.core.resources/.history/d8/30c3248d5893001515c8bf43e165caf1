@@ -1,0 +1,8 @@
+.header { background: #D5BAE4; }
+
+.bord {box-shadow:  0 0 4px #3B5D7B;}
+.bord div{ position: static; height: 20px; display:inline-block; margin:2px; width:32%}   
+.col1 { width: 32%;float:left}
+.col2 {  width: 32%;float:left }
+.col3 { width: 31%;float:left}
+.cc {margin:0.5%}
