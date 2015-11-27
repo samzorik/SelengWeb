@@ -4,7 +4,8 @@
 */target/
 */weka/
 */weka/**
- Mahout/**
+ Mahout/*
+ .metadata/*
 # OS Files #
 .DS_Store
  
