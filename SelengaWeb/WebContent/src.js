@@ -2,6 +2,8 @@ var radioBtn;
 		$('input').bind('click',function() {
 			if  ($(this).attr("value")=="by_year")
 	 			 {
+				
+				
 					$.get("getYears", function(responseJson) {                 // Execute Ajax GET request on URL of "someservlet" and execute the following function with Ajax response JSON..
 						var $select = $("#years");                           // Locate HTML DOM element with ID "someselect".
 				        $select.find("input").remove();   
