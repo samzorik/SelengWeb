@@ -1,11 +1,12 @@
 # Directories #
+ /.metadata/
+ /realja
 */build/
 */bin/
 */target/
 */weka/
 */weka/**
  Mahout/*
- .metadata/*
 # OS Files #
 .DS_Store
  
@@ -21,8 +22,7 @@
 *.gif
 *.jpg
 *.png
-*.log
- 
+*.log 
 ######################
 # Windows
 ######################
@@ -40,8 +40,6 @@ Desktop.ini
 .DS_Store
 .svn
  
-# Thumbnails
-._*
  
 # Files that might appear on external disk
 .Spotlight-V100
@@ -75,3 +73,11 @@ local.properties
  
 # PDT-specific
 .buildpath
+'.idea' 
+/.recommenders
+/.metadata
+/realja
+/HtmlParser
+/RemoteSystemsTempFiles
+/TestWebProj
+/error_count
