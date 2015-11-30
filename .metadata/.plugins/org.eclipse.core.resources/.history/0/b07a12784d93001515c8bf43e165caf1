@@ -1,8 +1,0 @@
-.header { background: #D5BAE4; }
-
-.layout div{ position: absolute; height: 200px}   
-.col1 { width: 32%; min-width:200px; margin-top: 1%;}
-.col2 { left: 33%; width: 32%; }
-.col3 { left: 66%; right: 0; width: 32%;}
-.cc {margin:1%}
-.bord {border: solid 1px}

@@ -8,7 +8,7 @@ import javax.persistence.Persistence;
 import javax.persistence.Query;
 
 public class EntityTest {
-	public static EntityManager em = Persistence.createEntityManagerFactory("TestWebProj").createEntityManager();
+	public static EntityManager em = Persistence.createEntityManagerFactory("SelengaWeb").createEntityManager();
 	public static String output;
 	
 	 public static List<Fact_table> getAlldatatype()

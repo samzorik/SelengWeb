@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename type &apos;prefuse.demos.TreeMap&apos; to &apos;TreeMapPref&apos;&#x0D;&#x0A;- Original project: &apos;realja&apos;&#x0D;&#x0A;- Original element: &apos;prefuse.demos.TreeMap&apos;&#x0D;&#x0A;- Renamed element: &apos;prefuse.demos.TreeMapPref&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;TreeMap&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/Prefus&lt;prefuse.demos{TreeMap.java[TreeMap" matchStrategy="1" name="TreeMapPref" qualified="false" references="true" similarDeclarations="false" stamp="1400481186726" textual="false" version="1.0"/>
-</session>

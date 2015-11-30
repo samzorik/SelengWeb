@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename local variable &apos;authors&apos; in &apos;JiraIssueAnalyze11092013.main(...)&apos; to &apos;author&apos;&#x0D;&#x0A;- Original project: &apos;HtmlParser&apos;&#x0D;&#x0A;- Original element: &apos;JiraIssueAnalyze11092013.main(String[]).authors&apos;&#x0D;&#x0A;- Renamed element: &apos;authors&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;authors&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{JiraIssueAnalyze11092013.java[JiraIssueAnalyze11092013~main~\[QString;@authors!3812!3864!3820!3826!QElement;!0!false" name="author" references="true" stamp="1393300553311" version="1.0"/>
-</session>
