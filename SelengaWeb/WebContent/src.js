@@ -2,27 +2,40 @@ var radioBtn;
 var checked=new Array();
 function add_pokaz(elem,id)
 {
-	elem.bind('click',function(id){
+	var numb = id;
+	elem.bind('click',function(numb){
+//		alert(numb);
 //		if (elem.getAttribute('checked')==true)
 		if($(this).is(":checked"))
 		{
 //			$('body').append('Selected '+id);
-		    checked[id]=1;
+		    checked[Number(id)]=1;
 		}
 	else
 		{
-		  checked[id]=0;
+		  checked[Number(id)]=0;
 		}
 //		alert('faq');
+		alert('id = '+Number(id)+' Length ='+checked.length);
 	});
 }
 
 $('#load_data').bind('click',function() {
-//	alert('erwer');
+	alert(checked.length);
+//	for ( var i in checked) {
+//		if (!arr.hasOwnProperty(i)) continue;
+//			  $('body').append('Selected '+Number(i)); 
+//	}
 	checked.forEach(function(item, i,arr) {
-//		$('body').append('Selected '+item); 
-		  alert( i + ": " + item + " (массив:" + arr + ")" );
+		$('body').append('i='+i+'  item='+item); 
+//		  alert( i + ": " + item + " (массив:" + arr + ")" );
 	});
+//	alert(checked);
+//	for (var int = 0; int < checked.length; int++) {
+//		if (checked[int]!=undefined)
+//			{
+//			}		
+//	}
 });
 
 		$('#by_year').bind('click',function() {

@@ -1,15 +1,11 @@
 package TestMavenProject.Runner;
 
-import TestMavenProject.Runner.Car;
+import java.util.List;
 
 import javax.persistence.EntityManager;
 import javax.persistence.Persistence;
-import javax.persistence.TypedQuery;
-
-import java.util.Iterator;
-import java.util.List;
-
 import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 
 public class CarService {
 

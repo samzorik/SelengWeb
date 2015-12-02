@@ -81,3 +81,8 @@ local.properties
 /RemoteSystemsTempFiles
 /TestWebProj
 /error_count
+/SelengaWeb/target
+/SelengaWeb/.settings
+/Runner/.settings
+/Runner/target
+/outa.txt
