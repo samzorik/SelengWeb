@@ -17,16 +17,16 @@
 			</legend>
 			<div class="bord">
 				<div class="col1">
-					<input type="radio" name="data_type" value="by_year"> По
-					году
+					<input type="radio" name="data_type" value="by_year" id="by_year"> 
+					<label for="by_year"> По году</label>
 				</div>
 				<div class="col2">
-					<input type="radio" name="data_type" value="by_sp"> По
-					сельскому поселению
+					<input type="radio" name="data_type" value="by_sp" id="by_sp"> 
+					<label for="by_sp">По сельскому поселению</label>
 				</div>
 				<div class="col3">
-					<input type="radio" name="data_type" value="by_district">
-					По району в целом
+					<input type="radio" name="data_type" value="by_district" id="by_district">
+					<label for="by_district">По району в целом</label>
 				</div>
 			</div>
 		</fieldset>
@@ -53,9 +53,15 @@
 				<b>Показатели</b>
 			</legend>
 		</fieldset>
-	</form>
-	<select id="someselect"></select>
-	<div></div>	
+		<div id="buttonpanel">
+		   <div class="col2_1">
+		   <input type="button" id="select_all" value="Выбрать все">
+		   </div>
+		   <div class="col2_2">
+		   <input type="button" id="load_data" value="Загрузить выбранные показатели">
+		   </div>
+		</div>
+	</form>	
 	
  <script  type="text/javascript" src="src.js">
  </script>

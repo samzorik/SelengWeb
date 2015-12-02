@@ -6,4 +6,11 @@
 .col1 { width: 25%}
 .col2 {  width: 36%}
 .col3 { width: 35%}
+.col2_1 { width: 49%}
+.col2_2 { width: 49%}
+#buttonpanel div{display:inline-block}
+#buttonpanel input{width:100%}
+#buttonpanel{position:absolute;bottom:0;width:98%}
 .cc {margin:0.5%}
+input{display:inline-block; width:20px;margin: 5px}
+.linediv div{position:static;display:inline-block;width:32%;height:20px;margin:2px}

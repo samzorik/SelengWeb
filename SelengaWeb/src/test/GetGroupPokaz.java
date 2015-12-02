@@ -34,10 +34,11 @@ public class GetGroupPokaz extends HttpServlet {
 		String queryString;
 		Query query;
 		List<Group_pokaz> all_data_group_pokaz;
+		String issp=request.getParameter("issp");
 //		all_data_data_type
 		ButtonGroup temp_bg = new ButtonGroup();
 		try {
-			queryString = "SELECT a FROM Group_pokaz a where a.is_sp=1";
+			queryString = "SELECT a FROM Group_pokaz a where a.is_sp="+issp;
 			query = GetYears.em.createQuery(queryString);
 			Map<String, String> options = new LinkedHashMap<String, String>();
 			all_data_group_pokaz = query.getResultList();
